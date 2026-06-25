@@ -11,7 +11,7 @@ This is a locally hosted Retrieval-Augmented Generation (RAG) chatbot built usin
    Create a `.env` file in the root directory and add your Google Gemini API key:
    `GOOGLE_API_KEY="your_api_key_here"`
 4) Add data
-  Place the PDF document you want to chat with inside the `data/` folder.
+  Create a new folder named data and place the PDF document you want to chat with inside the `data/` folder.
 5) Build database
    Run the ingestion script to process the PDF and build the Chroma vector database:
    `python ingest_database.py`
