@@ -7,10 +7,9 @@ import uuid
 import os
 from dotenv import load_dotenv
 
-# Load the API key from the .env file
+
 load_dotenv()
 
-# Configuration
 DATA_PATH = r"data"
 CHROMA_PATH = r"chroma_db"
 
